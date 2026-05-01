@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Leader Board 2025</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="page__header">
+      <h1 class="page__title">Company Leader Board 2025</h1>
+    </header>
+
+    <main class="page__main">
+      <div class="leaderboard">
+        <div class="leaderboard__heading">
+          <h2 class="leaderboard__title">Leaderboard</h2>
+          <p class="leaderboard__subtitle">Top performers based on contributions and activity</p>
+        </div>
+
+        <div class="filters">
+          <!-- Year dropdown -->
+          <div class="filters__dropdown" data-filter="year">
+            <div class="filters__trigger">
+              <span class="filters__trigger-label">All Years</span>
+              <i class="fa-solid fa-chevron-down filters__trigger-icon"></i>
+            </div>
+            <div class="filters__options">
+              <div class="filters__option filters__option--selected" data-value="">All Years</div>
+              <div class="filters__option" data-value="2025">2025</div>
+            </div>
+          </div>
+
+          <!-- Quarter dropdown -->
+          <div class="filters__dropdown" data-filter="quarter">
+            <div class="filters__trigger">
+              <span class="filters__trigger-label">All Quarters</span>
+              <i class="fa-solid fa-chevron-down filters__trigger-icon"></i>
+            </div>
+            <div class="filters__options">
+              <div class="filters__option filters__option--selected" data-value="">All Quarters</div>
+              <div class="filters__option" data-value="Q1">Q1</div>
+              <div class="filters__option" data-value="Q2">Q2</div>
+              <div class="filters__option" data-value="Q3">Q3</div>
+              <div class="filters__option" data-value="Q4">Q4</div>
+            </div>
+          </div>
+
+          <!-- Category dropdown -->
+          <div class="filters__dropdown" data-filter="category">
+            <div class="filters__trigger">
+              <span class="filters__trigger-label" title="All Categories">All Categories</span>
+              <i class="fa-solid fa-chevron-down filters__trigger-icon"></i>
+            </div>
+            <div class="filters__options">
+              <div class="filters__option filters__option--selected" data-value="">All Categories</div>
+              <div class="filters__option" data-value="Education">Education</div>
+              <div class="filters__option" data-value="Public Speaking">Public Speaking</div>
+              <div class="filters__option" data-value="University Partnership">University Partnership</div>
+            </div>
+          </div>
+
+          <!-- Search -->
+          <div class="filters__search">
+            <i class="fa-solid fa-magnifying-glass filters__search-icon"></i>
+            <input
+              type="text"
+              class="filters__search-input"
+              id="searchInput"
+              placeholder="Search employee..."
+              autocomplete="off"
+            />
+            <button class="filters__search-clear" id="searchClear" aria-label="Clear search">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Podium — rendered by JS -->
+        <div id="podium" class="podium"></div>
+
+        <!-- Person list — rendered by JS -->
+        <div id="personList" class="person-list"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
