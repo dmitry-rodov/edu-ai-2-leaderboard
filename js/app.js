@@ -275,6 +275,11 @@ function buildPersonCard(entry) {
   }
   row.appendChild(cats);
 
+  // Divider
+  const divider = document.createElement('div');
+  divider.className = 'person-card__divider';
+  row.appendChild(divider);
+
   // Total score
   const totalEl = document.createElement('div');
   totalEl.className = 'person-card__total';
