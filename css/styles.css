@@ -413,8 +413,9 @@ button {
 }
 
 .podium__score--gold {
-  background: var(--color-gold);
-  color: #5a3b00;
+  background: #fdf6d5;
+  border: 1px solid #e8c84a;
+  color: #8a6d00;
 }
 
 .podium__score--silver,
@@ -429,7 +430,7 @@ button {
 }
 
 .podium__score--gold .podium__score-star {
-  color: #5a3b00;
+  color: #8a6d00;
 }
 
 .podium__score--silver .podium__score-star,
@@ -451,16 +452,22 @@ button {
 .podium__block--first {
   background: linear-gradient(180deg, #f8e28a 0%, var(--color-gold-podium) 100%);
   height: 130px;
+  border: 1px solid #e5c85a;
+  border-bottom: none;
 }
 
 .podium__block--second {
   background: linear-gradient(180deg, #e2eaf2 0%, var(--color-silver-podium) 100%);
   height: 100px;
+  border: 1px solid #c5d0db;
+  border-bottom: none;
 }
 
 .podium__block--third {
   background: linear-gradient(180deg, #e8eff5 0%, var(--color-bronze-podium) 100%);
   height: 75px;
+  border: 1px solid #c8d2dc;
+  border-bottom: none;
 }
 
 .podium__block-watermark {
@@ -506,23 +513,23 @@ button {
   background: var(--bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-card);
-  border-left: 4px solid transparent;
+  border-left: 4px solid #d6e5f5;
   overflow: hidden;
   transition: border-left-color 0.2s;
 }
 
 .person-card:hover {
   border-color: var(--color-border);
-  border-left-color: var(--color-primary-light);
+  border-left-color: #b8d4f0;
 }
 
 .person-card--top {
-  border-left-color: #c8dff5;
+  border-left-color: #a8ccea;
 }
 
 .person-card--expanded {
   border-color: var(--color-primary) !important;
-  border-left-width: 1px;
+  border-left-color: var(--color-primary) !important;
 }
 
 .person-card__row {
@@ -540,7 +547,7 @@ button {
   flex-shrink: 0;
   font-size: 18px;
   font-weight: 700;
-  color: #c0cad8;
+  color: #7da8cc;
   text-align: center;
   line-height: 1;
 }
@@ -599,6 +606,15 @@ button {
   font-size: 11px;
   font-weight: 600;
   color: var(--color-primary);
+}
+
+/* Divider between categories and total */
+.person-card__divider {
+  width: 1px;
+  align-self: stretch;
+  background: var(--color-border);
+  flex-shrink: 0;
+  margin: 4px 4px;
 }
 
 /* Total score */
