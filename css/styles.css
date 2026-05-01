@@ -337,7 +337,7 @@ button {
   width: 104px;
   height: 104px;
   font-size: 32px;
-  border-color: var(--color-gold);
+  border-color: var(--color-gold-podium);
 }
 
 .podium__person--second .podium__avatar-wrapper .avatar,
@@ -348,11 +348,11 @@ button {
 }
 
 .podium__person--second .podium__avatar-wrapper .avatar {
-  border-color: var(--color-silver);
+  border-color: #ffffff;
 }
 
 .podium__person--third .podium__avatar-wrapper .avatar {
-  border-color: var(--color-bronze);
+  border-color: #ffffff;
 }
 
 /* Rank badge on avatar */
