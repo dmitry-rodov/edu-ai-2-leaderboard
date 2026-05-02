@@ -42,3 +42,28 @@ The ~40 mock people are spread across all four quarters of 2025, with a mix of o
 | Top-3 podium updates with filters | Matches the spec: filtered results change who appears on the podium |
 | Initials avatar fallback | Deterministic color from name hash ensures the same person always gets the same color; no external dependency |
 | Activity dates stored as ISO strings | Formatting to DD-MMM-YYYY is done in JS at render time, keeping the JSON clean |
+
+## Iterative Visual Fixes — What Helped
+
+After the initial implementation, a significant portion of work went into closing the gap between the generated UI and the design. The process that made this efficient was a tight feedback loop between visual comparison tools and targeted edits.
+
+### What drove each fix
+
+**Chrome DevTools MCP** was the primary debugging tool. It allowed the AI to:
+- Take screenshots of the live/local site without manual intervention
+- Execute JavaScript in the browser console to evaluate computed styles (`window.getComputedStyle`) and compare exact colour values, border widths, and spacing against the design
+- Simulate viewport widths (e.g. setting `meta[name=viewport]` to `width=768`) to test responsive layouts without resizing the browser window
+
+**Side-by-side image comparison** — design screenshots were stored in `/images/` and the MCP-captured live screenshots were saved alongside them. Viewing both images in the same turn let the AI spot pixel-level differences (e.g. wrong border thickness, slightly off background colour) that text descriptions alone would miss.
+
+**User feedback as a diff** — the user reviewed each round of fixes and described remaining discrepancies precisely (e.g. "2nd and 3rd place circles are both silver", "filters have less rounded borders"). Each piece of feedback was treated as a specific, testable requirement, which prevented unnecessary changes to parts that were already correct.
+
+**Computed style extraction** — for colour and typography discrepancies, the user provided exact browser-computed style values from the original page (e.g. `color: rgb(30, 41, 59)`, `font-weight: 600`, `padding: 16px 8px`). Feeding those values directly into the CSS removed guesswork and resolved the activity table row styles in one pass.
+
+### Recurring mistake patterns identified
+
+- **Over-rounding borders** — initial border-radius values (8–12px) were too large for filter controls; the design uses ~3px, giving a nearly square look
+- **Left-border persistence** — a decorative wider left border was added to person cards early on and took several rounds to fully remove from all states (normal, top-3, expanded) because different CSS rules were overriding each other
+- **Podium avatar ring colours** — gold/silver/bronze ring colours were initially taken from accent colour variables rather than the podium background colours, so the rings clashed with the platform
+- **Search re-populating the podium** — the initial implementation took `visible.slice(0, 3)` after filtering, which replaced podium entries with whoever ranked highest in the search results; the fix was to filter by original rank (`rank <= 3`) instead, and to map podium slots by rank rather than array index so partial results render in the correct position
+- **Browser caching during local development** — the Python `http.server` returns `304 Not Modified` for unchanged files, causing the browser to silently serve stale JS/CSS after edits. This was resolved by switching to a no-cache server (`Cache-Control: no-store`) and adding a version query string to the script tag when needed
