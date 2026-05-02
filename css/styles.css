@@ -708,6 +708,7 @@ button {
 .activity-table__row {
   display: grid;
   grid-template-columns: minmax(120px, 1fr) minmax(100px, 160px) minmax(80px, 110px) 60px;
+  min-width: 500px;
 }
 
 .activity-table__header {
@@ -885,17 +886,4 @@ button {
    RESPONSIVE — ≤ 520px
    ===================================================== */
 @media (max-width: 520px) {
-  .person-card__categories {
-    display: none;
-  }
-
-  .activity-table__header,
-  .activity-table__row {
-    grid-template-columns: 1fr 80px 60px;
-  }
-
-  .activity-table__header > :nth-child(2),
-  .activity-table__row > :nth-child(2) {
-    display: none;
-  }
 }
