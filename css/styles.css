@@ -11,7 +11,7 @@
   --color-bronze-podium: #dde5ed;
   --color-primary: #4a90d9;
   --color-primary-light: #e8f2fb;
-  --bg-page: #f8fafc;
+  --bg-page: #e8ebef;
   --bg-card: #ffffff;
   --color-text-primary: #1a202c;
   --color-text-secondary: #718096;
@@ -75,7 +75,7 @@ button {
    LEADERBOARD CARD
    ===================================================== */
 .leaderboard {
-  background: var(--bg-card);
+  background: #f8fafc;
   border-radius: 16px;
   box-shadow: var(--shadow-card);
   padding: 32px;
