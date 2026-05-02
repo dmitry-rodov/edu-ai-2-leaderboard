@@ -169,7 +169,7 @@ button {
   position: absolute;
   top: calc(100% + 4px);
   left: 0;
-  min-width: 100%;
+  width: 100%;
   background: var(--bg-card);
   border: 1px solid #999;
   border-radius: 3px;
