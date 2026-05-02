@@ -125,21 +125,24 @@ button {
   gap: 8px;
   padding: 8px 12px;
   background: rgb(235, 235, 237);
-  border: 1px solid #888;
+  border: 1px solid #000;
   border-radius: 3px;
   cursor: pointer;
   font-size: 14px;
-  color: var(--color-text-primary);
+  color: #000;
   white-space: nowrap;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, border-width 0.15s;
+  height: 38px;
+  box-sizing: border-box;
 }
 
 .filters__trigger:hover {
-  border-color: #555;
+  border-color: #000;
 }
 
 .filters__dropdown--open .filters__trigger {
-  border-color: var(--color-border-dark);
+  border-width: 2px;
+  border-color: #000;
 }
 
 .filters__trigger-label {
@@ -212,23 +215,27 @@ button {
   color: var(--color-text-muted);
   font-size: 13px;
   pointer-events: none;
+  display: none;
 }
 
 .filters__search-input {
   width: 100%;
-  padding: 8px 36px 8px 34px;
-  border: 1px solid #888;
+  padding: 8px 36px 8px 12px;
+  border: 1px solid #000;
   border-radius: 3px;
   font-size: 14px;
   font-family: inherit;
-  color: var(--color-text-primary);
-  background: #f8fafc;
+  color: #000;
+  background: #fff;
   outline: none;
-  transition: border-color 0.15s;
+  transition: border-width 0.15s;
+  height: 38px;
+  box-sizing: border-box;
 }
 
 .filters__search-input:focus {
-  border-color: var(--color-primary);
+  border-width: 2px;
+  border-color: #000;
 }
 
 .filters__search-input::placeholder {
