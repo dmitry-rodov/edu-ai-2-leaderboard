@@ -757,25 +757,58 @@ button {
 }
 
 /* =====================================================
-   RESPONSIVE
+   RESPONSIVE — ≤ 768px
    ===================================================== */
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .leaderboard {
     padding: 20px 16px;
   }
 
+  /* Filters stack vertically */
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .filters__dropdown {
+    width: fit-content;
+  }
+
+  .filters__search {
+    min-width: unset;
+  }
+
+  /* Podium stacks vertically: 1st → 2nd → 3rd */
   .podium {
+    flex-direction: column;
+    align-items: center;
     gap: 0;
   }
 
-  .podium__name {
-    font-size: 13px;
+  .podium__person {
+    max-width: 100%;
+    width: 100%;
   }
 
-  .podium__meta {
-    display: none;
+  .podium__person--first {
+    order: 1;
   }
 
+  .podium__person--second {
+    order: 2;
+  }
+
+  .podium__person--third {
+    order: 3;
+  }
+
+  .podium__block {
+    max-width: 65%;
+    margin: 0 auto;
+  }
+
+  /* Person cards */
   .person-card__categories {
     gap: 10px;
   }
@@ -784,8 +817,15 @@ button {
   .activity-table__row {
     grid-template-columns: 1fr 100px 90px 60px;
   }
+
+  .activity-table {
+    overflow-x: auto;
+  }
 }
 
+/* =====================================================
+   RESPONSIVE — ≤ 520px
+   ===================================================== */
 @media (max-width: 520px) {
   .person-card__categories {
     display: none;
