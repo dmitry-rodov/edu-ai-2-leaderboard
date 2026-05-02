@@ -2,24 +2,27 @@
 
 ## Approach
 
-The task was to replicate a company leaderboard UI from a set of design screenshots, using only static web technologies suitable for GitHub Pages hosting.
+The task was to replicate a company leaderboard UI from a set of design screenshots, using only static web technologies suitable for GitHub Pages hosting. The solution had to match the original pixel-for-pixel — all UI elements, filters, sorting, responsive layout — but contain zero real data from the original.
 
-I started by analysing all nine provided design images to understand the full UI surface: page layout, the podium for top-3 performers, the scrollable ranked list with expandable rows, the filter bar with custom dropdowns and a search field, and the activity detail table.
+I started by analysing all provided design images (desktop and ≤768px mobile views) to understand the full UI surface: page layout, the podium for top-3 performers, the scrollable ranked list with expandable rows, the filter bar with custom dropdowns and a search field, and the activity detail table.
 
-From that analysis I produced a written plan covering file structure, data schema, CSS architecture, and JS logic before writing any code. The implementation then proceeded phase by phase — data, HTML, CSS, JS — with each phase reviewed conceptually before moving to the next.
+From that analysis I produced a written plan covering file structure, data schema, CSS architecture, and JS logic before writing any code. The implementation then proceeded phase by phase — data, HTML, CSS, JS — with each phase reviewed before moving to the next. Visual fidelity was verified iteratively using Chrome DevTools MCP to take screenshots and compare them against the design images.
 
 ## Tools and Techniques
 
 - **GitHub Copilot (VS Code)** — used throughout for planning, code generation, and incremental refinement
+- **Chrome DevTools MCP** — automated browser screenshots, DOM inspection, and computed style extraction to compare the deployed site against design images and catch visual discrepancies
 - **Pure HTML5 + CSS3 + Vanilla JS** — no framework, no build tools; the entire app is a set of static files
 - **BEM methodology** — CSS follows Block-Element-Modifier naming for maintainability and clarity
 - **Font Awesome 6 (CDN)** — icon library for category icons (graduation cap, monitor display, smiley face), star ratings, and UI chrome (chevrons, magnifying glass)
 - **pravatar.cc (CDN)** — deterministic avatar placeholder images for mock people who "have" profile photos
-- **GitHub Actions** — automated deployment to GitHub Pages on every push to `main`, using `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`
+- **GitHub Actions** — automated deployment to GitHub Pages on every push to `main`
 
 ## Data Replacement Strategy
 
-The original leaderboard contains real employee names, job titles, department codes, and activity entries. All of this data was replaced with fully invented equivalents:
+No real data from the original leaderboard was ever provided to the AI assistant or included in the codebase. Before taking any design reference screenshots, I used a browser console script to replace all real names, titles, and other sensitive text visible on the original page, ensuring the AI never had access to real employee data. The design screenshots used for reference only contained anonymised placeholder text.
+
+All data in the solution is fully invented:
 
 - **Names** — international mix of first and last names, none derived from the original
 - **Job titles** — plausible engineering/tech titles (Principal Software Engineer, Lead Data Engineer, etc.) that fit a tech company leaderboard context

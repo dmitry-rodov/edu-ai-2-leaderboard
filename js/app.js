@@ -124,7 +124,7 @@ function applyFilters() {
       })
     : ranked;
 
-  renderPodium(visible.slice(0, 3));
+  renderPodium(visible.filter(c => c.rank <= 3));
   renderPersonList(visible);
 }
 
@@ -142,8 +142,12 @@ function renderPodium(top) {
 
   if (top.length === 0) return;
 
-  // Reorder: visual order is [2nd, 1st, 3rd]
-  const order = [top[1], top[0], top[2]];
+  // Map by rank (1, 2, 3) so partial results work
+  const byRank = {};
+  top.forEach(e => { byRank[e.rank] = e; });
+
+  // Visual order: 2nd, 1st, 3rd
+  const order = [byRank[2], byRank[1], byRank[3]];
 
   order.forEach((entry, visualIdx) => {
     if (!entry) return;

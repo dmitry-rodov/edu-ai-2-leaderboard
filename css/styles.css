@@ -11,7 +11,7 @@
   --color-bronze-podium: #dde5ed;
   --color-primary: #4a90d9;
   --color-primary-light: #e8f2fb;
-  --bg-page: #f0f2f5;
+  --bg-page: #e8ebef;
   --bg-card: #ffffff;
   --color-text-primary: #1a202c;
   --color-text-secondary: #718096;
@@ -106,9 +106,9 @@ button {
   gap: 12px;
   flex-wrap: wrap;
   padding: 16px;
-  background: #f8fafc;
+  background: var(--bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-card);
+  border-radius: 8px;
   margin-bottom: 32px;
 }
 
@@ -124,8 +124,8 @@ button {
   justify-content: space-between;
   gap: 8px;
   padding: 8px 12px;
-  background: var(--bg-card);
-  border: 1px solid #999;
+  background: #f8fafc;
+  border: 1px solid #888;
   border-radius: 3px;
   cursor: pointer;
   font-size: 14px;
@@ -135,7 +135,7 @@ button {
 }
 
 .filters__trigger:hover {
-  border-color: #666;
+  border-color: #555;
 }
 
 .filters__dropdown--open .filters__trigger {
@@ -217,12 +217,12 @@ button {
 .filters__search-input {
   width: 100%;
   padding: 8px 36px 8px 34px;
-  border: 1px solid #999;
+  border: 1px solid #888;
   border-radius: 3px;
   font-size: 14px;
   font-family: inherit;
   color: var(--color-text-primary);
-  background: var(--bg-card);
+  background: #f8fafc;
   outline: none;
   transition: border-color 0.15s;
 }
@@ -452,6 +452,7 @@ button {
   background: linear-gradient(180deg, #f8e28a 0%, var(--color-gold-podium) 100%);
   height: 130px;
   border: 1px solid #e5c85a;
+  border-top: 3px solid #e5c85a;
   border-bottom: none;
 }
 
@@ -459,6 +460,7 @@ button {
   background: linear-gradient(180deg, #e2eaf2 0%, var(--color-silver-podium) 100%);
   height: 100px;
   border: 1px solid #c5d0db;
+  border-top: 3px solid #c5d0db;
   border-bottom: none;
 }
 
@@ -466,6 +468,7 @@ button {
   background: linear-gradient(180deg, #e8eff5 0%, var(--color-bronze-podium) 100%);
   height: 75px;
   border: 1px solid #c8d2dc;
+  border-top: 3px solid #c8d2dc;
   border-bottom: none;
 }
 
@@ -512,23 +515,19 @@ button {
   background: var(--bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-card);
-  border-left: 4px solid #d6e5f5;
   overflow: hidden;
-  transition: border-left-color 0.2s;
 }
 
 .person-card:hover {
-  border-color: var(--color-border);
-  border-left-color: #b8d4f0;
+  border-color: #c8d6e5;
 }
 
 .person-card--top {
-  border-left-color: #a8ccea;
+  border-color: var(--color-border);
 }
 
 .person-card--expanded {
   border-color: var(--color-primary) !important;
-  border-left-color: var(--color-primary) !important;
 }
 
 .person-card__row {
@@ -662,6 +661,7 @@ button {
   color: var(--color-text-muted);
   font-size: 13px;
   border-radius: 50%;
+  background: #f0f2f5;
   transition: transform 0.25s, background 0.15s;
 }
 
@@ -681,7 +681,9 @@ button {
    ===================================================== */
 .person-card__details {
   display: none;
-  padding: 0 16px 16px 68px;
+  padding: 16px 16px 16px 68px;
+  background: #f8fafc;
+  border-top: 1px solid var(--color-border);
 }
 
 .person-card--expanded .person-card__details {
@@ -690,6 +692,7 @@ button {
 
 .activity-table {
   width: 100%;
+  overflow-x: auto;
 }
 
 .activity-table__heading {
@@ -697,29 +700,34 @@ button {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-text-secondary);
+  color: var(--color-primary);
   margin-bottom: 10px;
 }
 
-.activity-table__header {
+.activity-table__header,
+.activity-table__row {
   display: grid;
-  grid-template-columns: 1fr 160px 110px 80px;
-  padding: 6px 0;
+  grid-template-columns: minmax(120px, 1fr) minmax(100px, 160px) minmax(80px, 110px) 60px;
+}
+
+.activity-table__header {
+  padding: 12px 8px;
   border-bottom: 1px solid var(--color-border);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-text-secondary);
 }
 
 .activity-table__row {
-  display: grid;
-  grid-template-columns: 1fr 160px 110px 80px;
-  padding: 10px 0;
+  padding: 16px 8px;
   border-bottom: 1px solid var(--color-border);
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
   align-items: center;
+  min-height: 36px;
 }
 
 .activity-table__row:last-child {
@@ -727,33 +735,46 @@ button {
 }
 
 .activity-table__cell--name {
-  color: var(--color-text-primary);
+  color: #1e293b;
+  font-weight: 600;
   padding-right: 12px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .activity-table__cell--category {
   padding-right: 8px;
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .activity-table__cell--date {
   color: var(--color-text-secondary);
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .activity-table__cell--points {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-primary);
+  text-align: right;
 }
 
 /* Category pill */
 .category-pill {
   display: inline-block;
-  padding: 3px 10px;
-  background: #f0f4f8;
+  padding: 4px 12px;
+  background: #eef2f7;
+  border: 1px solid #d8e0ea;
   border-radius: var(--radius-pill);
-  font-size: 12px;
-  color: var(--color-text-primary);
+  font-size: 13px;
+  color: #64748b;
   font-weight: 500;
-  white-space: nowrap;
 }
 
 /* =====================================================
@@ -783,7 +804,7 @@ button {
   .podium {
     flex-direction: column;
     align-items: center;
-    gap: 0;
+    gap: 24px;
   }
 
   .podium__person {
@@ -808,9 +829,46 @@ button {
     margin: 0 auto;
   }
 
-  /* Person cards */
+  /* Person cards: 2-row layout */
+  .person-card__row {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    padding: 14px 16px 10px;
+  }
+
+  /* Row 1: rank + avatar + info fill full width */
+  .person-card__info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Horizontal divider under row 1 */
+  .person-card__divider {
+    display: none;
+  }
+
+  /* Row 2: categories + total hidden + chevron pushed right */
   .person-card__categories {
     gap: 10px;
+    order: 10;
+  }
+
+  .person-card__total {
+    display: none;
+  }
+
+  .person-card__chevron {
+    order: 11;
+    margin-left: auto;
+  }
+
+  /* Full-width separator between row 1 and row 2 */
+  .person-card__row::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: var(--color-border);
+    order: 9;
   }
 
   .activity-table__header,
