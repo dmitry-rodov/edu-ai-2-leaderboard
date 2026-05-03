@@ -128,7 +128,7 @@ button {
   border: 1px solid #000;
   border-radius: 0;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   color: #000;
   white-space: nowrap;
   transition: border-color 0.15s, border-width 0.15s;
