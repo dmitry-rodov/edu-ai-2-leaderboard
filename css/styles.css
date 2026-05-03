@@ -170,7 +170,7 @@ button {
   top: calc(100% + 4px);
   left: 0;
   width: 100%;
-  background: var(--bg-card);
+  background: rgb(235, 235, 237);
   border: 1px solid #999;
   border-radius: 0;
   box-shadow: var(--shadow-dropdown);
