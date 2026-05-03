@@ -4,7 +4,7 @@
       "id": 1,
       "firstName": "Marcus",
       "lastName": "Holloway",
-      "photo": "https://i.pravatar.cc/100?u=marcus-holloway",
+      "photo": "https://i.pravatar.cc/100?img=1",
       "jobTitle": "Principal Software Engineer",
       "department": "WA.U1.D1.G2",
       "activities": [
@@ -86,7 +86,7 @@
       "id": 2,
       "firstName": "Sophia",
       "lastName": "Eriksson",
-      "photo": "https://i.pravatar.cc/100?u=sophia-eriksson",
+      "photo": "https://i.pravatar.cc/100?img=2",
       "jobTitle": "Lead Data Engineer",
       "department": "WA.U2.D3.G1",
       "activities": [
@@ -160,7 +160,7 @@
       "id": 3,
       "firstName": "Dmitri",
       "lastName": "Volkov",
-      "photo": "https://i.pravatar.cc/100?u=dmitri-volkov",
+      "photo": "https://i.pravatar.cc/100?img=3",
       "jobTitle": "Senior ML Engineer",
       "department": "BY.U1.D2.G4",
       "activities": [
@@ -234,7 +234,7 @@
       "id": 4,
       "firstName": "Aaliyah",
       "lastName": "Washington",
-      "photo": "https://i.pravatar.cc/100?u=aaliyah-washington",
+      "photo": "https://i.pravatar.cc/100?img=4",
       "jobTitle": "Engineering Manager",
       "department": "WA.U1.D1.G1",
       "activities": [
@@ -300,7 +300,7 @@
       "id": 5,
       "firstName": "Kenji",
       "lastName": "Watanabe",
-      "photo": "https://i.pravatar.cc/100?u=kenji-watanabe",
+      "photo": "https://i.pravatar.cc/100?img=5",
       "jobTitle": "Staff Software Engineer",
       "department": "BY.U2.D1.G3",
       "activities": [
@@ -366,7 +366,7 @@
       "id": 6,
       "firstName": "Ingrid",
       "lastName": "Larsson",
-      "photo": "https://i.pravatar.cc/100?u=ingrid-larsson",
+      "photo": "https://i.pravatar.cc/100?img=6",
       "jobTitle": "Senior Product Manager",
       "department": "SK.U1.D2.G2",
       "activities": [
@@ -416,7 +416,7 @@
       "id": 7,
       "firstName": "Rafael",
       "lastName": "Monteiro",
-      "photo": "https://i.pravatar.cc/100?u=rafael-monteiro",
+      "photo": "https://i.pravatar.cc/100?img=7",
       "jobTitle": "DevOps Engineer",
       "department": "BY.U1.D3.G1",
       "activities": [
@@ -466,7 +466,7 @@
       "id": 8,
       "firstName": "Priya",
       "lastName": "Sundaram",
-      "photo": "https://i.pravatar.cc/100?u=priya-sundaram",
+      "photo": "https://i.pravatar.cc/100?img=8",
       "jobTitle": "Senior QA Engineer",
       "department": "WA.U2.D1.G2",
       "activities": [
@@ -524,7 +524,7 @@
       "id": 9,
       "firstName": "Leon",
       "lastName": "Becker",
-      "photo": "https://i.pravatar.cc/100?u=leon-becker",
+      "photo": "https://i.pravatar.cc/100?img=9",
       "jobTitle": "Cloud Architect",
       "department": "BY.U2.D2.G2",
       "activities": [
@@ -574,7 +574,7 @@
       "id": 10,
       "firstName": "Natalia",
       "lastName": "Kowalczyk",
-      "photo": "https://i.pravatar.cc/100?u=natalia-kowalczyk",
+      "photo": "https://i.pravatar.cc/100?img=10",
       "jobTitle": "Frontend Tech Lead",
       "department": "SK.U1.D1.G3",
       "activities": [
@@ -632,7 +632,7 @@
       "id": 11,
       "firstName": "Tariq",
       "lastName": "Al-Rashid",
-      "photo": "https://i.pravatar.cc/100?u=tariq-alrashid",
+      "photo": "https://i.pravatar.cc/100?img=11",
       "jobTitle": "Backend Engineer",
       "department": "WA.U1.D2.G1",
       "activities": [
@@ -724,7 +724,7 @@
       "id": 13,
       "firstName": "Carlos",
       "lastName": "Rivera",
-      "photo": "https://i.pravatar.cc/100?u=carlos-rivera",
+      "photo": "https://i.pravatar.cc/100?img=12",
       "jobTitle": "Software Engineer II",
       "department": "SK.U2.D1.G1",
       "activities": [
@@ -816,7 +816,7 @@
       "id": 15,
       "firstName": "Fatima",
       "lastName": "Benali",
-      "photo": "https://i.pravatar.cc/100?u=fatima-benali",
+      "photo": "https://i.pravatar.cc/100?img=13",
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U1.D3.G2",
       "activities": [
@@ -858,7 +858,7 @@
       "id": 16,
       "firstName": "Viktor",
       "lastName": "Simonenko",
-      "photo": "https://i.pravatar.cc/100?u=viktor-simonenko",
+      "photo": "https://i.pravatar.cc/100?img=14",
       "jobTitle": "Platform Engineer",
       "department": "BY.U2.D3.G2",
       "activities": [
@@ -942,7 +942,7 @@
       "id": 18,
       "firstName": "Lena",
       "lastName": "Hoffmann",
-      "photo": "https://i.pravatar.cc/100?u=lena-hoffmann",
+      "photo": "https://i.pravatar.cc/100?img=15",
       "jobTitle": "UX Engineer",
       "department": "WA.U1.D1.G4",
       "activities": [
@@ -976,7 +976,7 @@
       "id": 19,
       "firstName": "Santiago",
       "lastName": "Cruz",
-      "photo": "https://i.pravatar.cc/100?u=santiago-cruz",
+      "photo": "https://i.pravatar.cc/100?img=16",
       "jobTitle": "Senior Software Engineer",
       "department": "BY.U1.D1.G1",
       "activities": [
@@ -1044,7 +1044,7 @@
       "id": 21,
       "firstName": "Chen",
       "lastName": "Wei",
-      "photo": "https://i.pravatar.cc/100?u=chen-wei",
+      "photo": "https://i.pravatar.cc/100?img=17",
       "jobTitle": "Staff Data Engineer",
       "department": "BY.U1.D2.G1",
       "activities": [
@@ -1078,7 +1078,7 @@
       "id": 22,
       "firstName": "Olena",
       "lastName": "Kovalenko",
-      "photo": "https://i.pravatar.cc/100?u=olena-kovalenko",
+      "photo": "https://i.pravatar.cc/100?img=18",
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U2.D2.G4",
       "activities": [
@@ -1146,7 +1146,7 @@
       "id": 24,
       "firstName": "Annika",
       "lastName": "Bergstrom",
-      "photo": "https://i.pravatar.cc/100?u=annika-bergstrom",
+      "photo": "https://i.pravatar.cc/100?img=19",
       "jobTitle": "QA Engineer",
       "department": "WA.U1.D2.G4",
       "activities": [
@@ -1180,7 +1180,7 @@
       "id": 25,
       "firstName": "Marco",
       "lastName": "Delgado",
-      "photo": "https://i.pravatar.cc/100?u=marco-delgado",
+      "photo": "https://i.pravatar.cc/100?img=20",
       "jobTitle": "Senior DevOps Engineer",
       "department": "BY.U2.D1.G2",
       "activities": [
@@ -1240,7 +1240,7 @@
       "id": 27,
       "firstName": "Dmitri",
       "lastName": "Orlov",
-      "photo": "https://i.pravatar.cc/100?u=dmitri-orlov",
+      "photo": "https://i.pravatar.cc/100?img=21",
       "jobTitle": "Software Architect",
       "department": "BY.U1.D3.G3",
       "activities": [
@@ -1274,7 +1274,7 @@
       "id": 28,
       "firstName": "Isabella",
       "lastName": "Marino",
-      "photo": "https://i.pravatar.cc/100?u=isabella-marino",
+      "photo": "https://i.pravatar.cc/100?img=22",
       "jobTitle": "Software Engineer II",
       "department": "WA.U1.D3.G3",
       "activities": [
@@ -1326,7 +1326,7 @@
       "id": 30,
       "firstName": "Roksana",
       "lastName": "Wilk",
-      "photo": "https://i.pravatar.cc/100?u=roksana-wilk",
+      "photo": "https://i.pravatar.cc/100?img=23",
       "jobTitle": "Junior Software Engineer",
       "department": "SK.U2.D3.G1",
       "activities": [
@@ -1352,7 +1352,7 @@
       "id": 31,
       "firstName": "Ahmed",
       "lastName": "Mansour",
-      "photo": "https://i.pravatar.cc/100?u=ahmed-mansour",
+      "photo": "https://i.pravatar.cc/100?img=24",
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U2.D1.G3",
       "activities": [
@@ -1404,7 +1404,7 @@
       "id": 33,
       "firstName": "Paulo",
       "lastName": "Ferreira",
-      "photo": "https://i.pravatar.cc/100?u=paulo-ferreira",
+      "photo": "https://i.pravatar.cc/100?img=25",
       "jobTitle": "Data Engineer",
       "department": "WA.U1.D2.G2",
       "activities": [
@@ -1456,7 +1456,7 @@
       "id": 35,
       "firstName": "Erika",
       "lastName": "Nilsson",
-      "photo": "https://i.pravatar.cc/100?u=erika-nilsson",
+      "photo": "https://i.pravatar.cc/100?img=26",
       "jobTitle": "Software Engineer II",
       "department": "SK.U1.D1.G2",
       "activities": [
@@ -1482,7 +1482,7 @@
       "id": 36,
       "firstName": "Boris",
       "lastName": "Novikov",
-      "photo": "https://i.pravatar.cc/100?u=boris-novikov",
+      "photo": "https://i.pravatar.cc/100?img=27",
       "jobTitle": "Backend Engineer",
       "department": "BY.U2.D3.G3",
       "activities": [
@@ -1526,7 +1526,7 @@
       "id": 38,
       "firstName": "Takeshi",
       "lastName": "Ogawa",
-      "photo": "https://i.pravatar.cc/100?u=takeshi-ogawa",
+      "photo": "https://i.pravatar.cc/100?img=28",
       "jobTitle": "Senior Software Engineer",
       "department": "BY.U2.D2.G4",
       "activities": [
@@ -1570,7 +1570,7 @@
       "id": 40,
       "firstName": "Andrei",
       "lastName": "Popescu",
-      "photo": "https://i.pravatar.cc/100?u=andrei-popescu",
+      "photo": "https://i.pravatar.cc/100?img=29",
       "jobTitle": "Cloud Engineer",
       "department": "WA.U1.D1.G3",
       "activities": [
