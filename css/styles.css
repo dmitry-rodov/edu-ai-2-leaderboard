@@ -531,17 +531,17 @@ button {
    ===================================================== */
 .person-card {
   background: var(--bg-card);
-  border: 1px solid var(--color-border);
+  border: 1px solid transparent;
   border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
   overflow: hidden;
 }
 
 .person-card:hover {
-  border-color: #c8d6e5;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
 }
 
 .person-card--top {
-  border-color: var(--color-border);
 }
 
 .person-card--expanded {
