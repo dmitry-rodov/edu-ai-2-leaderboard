@@ -313,8 +313,13 @@ function buildPersonCard(entry) {
   // ── Toggle expand ──
   let rendered = false;
   row.addEventListener('click', () => {
-    const isExpanded = card.classList.toggle('person-card--expanded');
-    if (isExpanded && !rendered) {
+    const wasExpanded = card.classList.contains('person-card--expanded');
+    // Collapse any other open card
+    document.querySelectorAll('.person-card--expanded').forEach(c => {
+      if (c !== card) c.classList.remove('person-card--expanded');
+    });
+    card.classList.toggle('person-card--expanded', !wasExpanded);
+    if (!wasExpanded && !rendered) {
       rendered = true;
     }
   });
