@@ -8,17 +8,78 @@
       "jobTitle": "Principal Software Engineer",
       "department": "WA.U1.D1.G2",
       "activities": [
-        { "name": "[LAB] Mentoring of Jordan Blake", "category": "Education", "date": "2025-02-14", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Casey Reeves", "category": "Education", "date": "2025-03-20", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Clean Architecture Fundamentals\"", "category": "Education", "date": "2025-04-05", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Priya Nair", "category": "Education", "date": "2025-05-18", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at DevSummit 2025", "category": "Public Speaking", "date": "2025-06-10", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Finn Carlson", "category": "Education", "date": "2025-07-22", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[UNI] Lecture for students at Westgate University", "category": "University Partnership", "date": "2025-08-14", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Microservices Design Patterns\"", "category": "Education", "date": "2025-09-03", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at TechForward Conference", "category": "Public Speaking", "date": "2025-10-17", "points": 32, "year": 2025, "quarter": "Q4" },
-        { "name": "[LAB] Mentoring of Amelia Brooks", "category": "Education", "date": "2025-11-08", "points": 96, "year": 2025, "quarter": "Q4" },
-        { "name": "[UNI] Lecture for students at Westgate University (repeat)", "category": "University Partnership", "date": "2025-12-01", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Jordan Blake",
+          "category": "Education",
+          "date": "2025-01-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Clean Architecture Fundamentals\"",
+          "category": "Education",
+          "date": "2025-04-05",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Priya Nair",
+          "category": "Education",
+          "date": "2025-05-18",
+          "points": 96,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at DevSummit 2025",
+          "category": "Public Speaking",
+          "date": "2025-06-10",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Casey Reeves",
+          "category": "Education",
+          "date": "2025-04-20",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Amelia Brooks",
+          "category": "Education",
+          "date": "2025-10-08",
+          "points": 96,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[TALK] Presentation at TechForward Conference",
+          "category": "Public Speaking",
+          "date": "2025-10-17",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[UNI] Lecture for students at Westgate University",
+          "category": "University Partnership",
+          "date": "2025-11-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[LAB] Mentoring of Finn Carlson",
+          "category": "Education",
+          "date": "2025-12-22",
+          "points": 48,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -29,15 +90,70 @@
       "jobTitle": "Lead Data Engineer",
       "department": "WA.U2.D3.G1",
       "activities": [
-        { "name": "[LAB] Mentoring of Liam Foster", "category": "Education", "date": "2025-01-15", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[UNI] Lecture for students at Nortech Institute", "category": "University Partnership", "date": "2025-02-20", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Data Pipelines at Scale\"", "category": "Education", "date": "2025-03-11", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at DataWorld Expo", "category": "Public Speaking", "date": "2025-04-22", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Yuki Tanaka", "category": "Education", "date": "2025-06-03", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Nortech Institute (repeat)", "category": "University Partnership", "date": "2025-07-18", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Stream Processing with Kafka\"", "category": "Education", "date": "2025-08-29", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Future of Data Summit", "category": "Public Speaking", "date": "2025-10-05", "points": 32, "year": 2025, "quarter": "Q4" },
-        { "name": "[LAB] Mentoring of Rania Khalil", "category": "Education", "date": "2025-11-20", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Liam Foster",
+          "category": "Education",
+          "date": "2025-01-15",
+          "points": 96,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[UNI] Lecture for students at Nortech Institute",
+          "category": "University Partnership",
+          "date": "2025-02-20",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Data Pipelines at Scale\"",
+          "category": "Education",
+          "date": "2025-03-11",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at DataWorld Expo",
+          "category": "Public Speaking",
+          "date": "2025-03-22",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Yuki Tanaka",
+          "category": "Education",
+          "date": "2025-06-03",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Nortech Institute (repeat)",
+          "category": "University Partnership",
+          "date": "2025-07-18",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Future of Data Summit",
+          "category": "Public Speaking",
+          "date": "2025-10-05",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[LAB] Mentoring of Rania Khalil",
+          "category": "Education",
+          "date": "2025-11-20",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -48,14 +164,70 @@
       "jobTitle": "Senior ML Engineer",
       "department": "BY.U1.D2.G4",
       "activities": [
-        { "name": "[LAB] Lecture \"Introduction to Neural Networks\"", "category": "Education", "date": "2025-01-28", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at AI Horizons 2025", "category": "Public Speaking", "date": "2025-03-15", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[UNI] Lecture for students at Eastbridge Academy", "category": "University Partnership", "date": "2025-04-10", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Oliver Grant", "category": "Education", "date": "2025-05-25", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Reinforcement Learning in Practice\"", "category": "Education", "date": "2025-07-08", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at MLConf Europe", "category": "Public Speaking", "date": "2025-09-19", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[UNI] Lecture for students at Eastbridge Academy (repeat)", "category": "University Partnership", "date": "2025-10-30", "points": 16, "year": 2025, "quarter": "Q4" },
-        { "name": "[LAB] Mentoring of Nina Schultz", "category": "Education", "date": "2025-12-12", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Arjun Mehta",
+          "category": "Education",
+          "date": "2025-01-22",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at AI/ML Summit",
+          "category": "Public Speaking",
+          "date": "2025-04-10",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Deep Learning in Production\"",
+          "category": "Education",
+          "date": "2025-05-05",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Leo Zhang",
+          "category": "Education",
+          "date": "2025-06-15",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at Neural Networks Today",
+          "category": "Public Speaking",
+          "date": "2025-07-08",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"MLOps Best Practices\"",
+          "category": "Education",
+          "date": "2025-08-20",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[UNI] Lecture for students at Eastfield University",
+          "category": "University Partnership",
+          "date": "2025-09-12",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Nadia Kessler",
+          "category": "Education",
+          "date": "2025-11-10",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -66,14 +238,62 @@
       "jobTitle": "Engineering Manager",
       "department": "WA.U1.D1.G1",
       "activities": [
-        { "name": "[LAB] Mentoring of Tobias Meier", "category": "Education", "date": "2025-02-05", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at LeadDev Conference", "category": "Public Speaking", "date": "2025-03-28", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Effective Code Review Practices\"", "category": "Education", "date": "2025-05-14", "points": 16, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Summit Tech College", "category": "University Partnership", "date": "2025-06-22", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Chloe Patel", "category": "Education", "date": "2025-08-07", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at EngineeringCraft Meetup", "category": "Public Speaking", "date": "2025-09-12", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Ethan Kowalski", "category": "Education", "date": "2025-11-03", "points": 64, "year": 2025, "quarter": "Q4" },
-        { "name": "[UNI] Lecture for students at Summit Tech College (repeat)", "category": "University Partnership", "date": "2025-12-08", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[UNI] Lecture for students at Greenfield College",
+          "category": "University Partnership",
+          "date": "2025-01-20",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[UNI] Workshop at Greenfield College",
+          "category": "University Partnership",
+          "date": "2025-02-15",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Derek Miles",
+          "category": "Education",
+          "date": "2025-03-08",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at Women in Tech Summit",
+          "category": "Public Speaking",
+          "date": "2025-05-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Summit Academy",
+          "category": "University Partnership",
+          "date": "2025-07-22",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"API Design Principles\"",
+          "category": "Education",
+          "date": "2025-08-10",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Sam Chen",
+          "category": "Education",
+          "date": "2025-11-05",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -84,13 +304,62 @@
       "jobTitle": "Staff Software Engineer",
       "department": "BY.U2.D1.G3",
       "activities": [
-        { "name": "[LAB] Lecture \"Kubernetes Operator Patterns\"", "category": "Education", "date": "2025-01-22", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at CloudNative Days", "category": "Public Speaking", "date": "2025-02-18", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Sofia Russo", "category": "Education", "date": "2025-04-14", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Harrington University", "category": "University Partnership", "date": "2025-05-28", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"GitOps in Enterprise\"", "category": "Education", "date": "2025-07-11", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Platform Engineering Summit", "category": "Public Speaking", "date": "2025-10-24", "points": 32, "year": 2025, "quarter": "Q4" },
-        { "name": "[LAB] Mentoring of Lucas Fernandez", "category": "Education", "date": "2025-11-15", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Hana Kim",
+          "category": "Education",
+          "date": "2025-02-10",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at Cloud Native Day",
+          "category": "Public Speaking",
+          "date": "2025-04-18",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Kubernetes Deep Dive\"",
+          "category": "Education",
+          "date": "2025-07-25",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Akira Sato",
+          "category": "Education",
+          "date": "2025-10-01",
+          "points": 96,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[TALK] Presentation at DevOps World",
+          "category": "Public Speaking",
+          "date": "2025-11-12",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[UNI] Lecture for students at Tokyo Tech Alliance",
+          "category": "University Partnership",
+          "date": "2025-12-05",
+          "points": 48,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[LAB] Mentoring of Mei Tanaka",
+          "category": "Education",
+          "date": "2025-12-15",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -101,12 +370,46 @@
       "jobTitle": "Senior Product Manager",
       "department": "SK.U1.D2.G2",
       "activities": [
-        { "name": "[TALK] Presentation at ProductWorld 2025", "category": "Public Speaking", "date": "2025-03-06", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Writing Great Product Specs\"", "category": "Education", "date": "2025-04-17", "points": 16, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Crestview Business School", "category": "University Partnership", "date": "2025-06-09", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Amara Diallo", "category": "Education", "date": "2025-07-30", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at PM Guild Annual Meetup", "category": "Public Speaking", "date": "2025-09-25", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Metrics That Matter\"", "category": "Education", "date": "2025-11-12", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at Nordic Dev Conference",
+          "category": "Public Speaking",
+          "date": "2025-01-28",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Keynote at European Tech Week",
+          "category": "Public Speaking",
+          "date": "2025-07-05",
+          "points": 96,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Agile Summit Stockholm",
+          "category": "Public Speaking",
+          "date": "2025-08-18",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"Agile at Scale\"",
+          "category": "Education",
+          "date": "2025-09-10",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[UNI] Lecture for students at Uppsala University",
+          "category": "University Partnership",
+          "date": "2025-12-02",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -117,11 +420,46 @@
       "jobTitle": "DevOps Engineer",
       "department": "BY.U1.D3.G1",
       "activities": [
-        { "name": "[LAB] Mentoring of Hana Kimura", "category": "Education", "date": "2025-02-10", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"CI/CD Best Practices\"", "category": "Education", "date": "2025-04-23", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at DevOps Days Vilnius", "category": "Public Speaking", "date": "2025-06-18", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Greenfield Tech Institute", "category": "University Partnership", "date": "2025-08-05", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Ella Johansson", "category": "Education", "date": "2025-10-14", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Hana Kimura",
+          "category": "Education",
+          "date": "2025-02-10",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"CI/CD Best Practices\"",
+          "category": "Education",
+          "date": "2025-04-23",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at DevOps Days Vilnius",
+          "category": "Public Speaking",
+          "date": "2025-06-18",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Greenfield Tech Institute",
+          "category": "University Partnership",
+          "date": "2025-08-05",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Ella Johansson",
+          "category": "Education",
+          "date": "2025-10-14",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -132,12 +470,54 @@
       "jobTitle": "Senior QA Engineer",
       "department": "WA.U2.D1.G2",
       "activities": [
-        { "name": "[LAB] Lecture \"Test Automation Strategies\"", "category": "Education", "date": "2025-01-30", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at QA Insights Conference", "category": "Public Speaking", "date": "2025-03-19", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Diego Vargas", "category": "Education", "date": "2025-05-07", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Oakdale University", "category": "University Partnership", "date": "2025-07-24", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Shift-Left Testing in Agile\"", "category": "Education", "date": "2025-09-30", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Aisha Okafor", "category": "Education", "date": "2025-11-28", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Test Automation Strategies\"",
+          "category": "Education",
+          "date": "2025-01-30",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at QA Insights Conference",
+          "category": "Public Speaking",
+          "date": "2025-03-19",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Diego Vargas",
+          "category": "Education",
+          "date": "2025-05-07",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Oakdale University",
+          "category": "University Partnership",
+          "date": "2025-07-24",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"Shift-Left Testing in Agile\"",
+          "category": "Education",
+          "date": "2025-09-30",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Aisha Okafor",
+          "category": "Education",
+          "date": "2025-11-28",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -148,11 +528,46 @@
       "jobTitle": "Cloud Architect",
       "department": "BY.U2.D2.G2",
       "activities": [
-        { "name": "[TALK] Presentation at AWS Community Day", "category": "Public Speaking", "date": "2025-02-27", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Multi-Cloud Cost Optimization\"", "category": "Education", "date": "2025-04-08", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Riverside Institute of Technology", "category": "University Partnership", "date": "2025-06-16", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Fatima Al-Hassan", "category": "Education", "date": "2025-08-21", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at CloudConf Warsaw", "category": "Public Speaking", "date": "2025-11-06", "points": 32, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at Berlin Tech Meetup",
+          "category": "Public Speaking",
+          "date": "2025-02-15",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Markus Stein",
+          "category": "Education",
+          "date": "2025-05-20",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Keynote at Munich DevDays",
+          "category": "Public Speaking",
+          "date": "2025-07-12",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Düsseldorf Innovation Forum",
+          "category": "Public Speaking",
+          "date": "2025-08-28",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[UNI] Lecture for students at TU Berlin",
+          "category": "University Partnership",
+          "date": "2025-12-10",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -163,12 +578,54 @@
       "jobTitle": "Frontend Tech Lead",
       "department": "SK.U1.D1.G3",
       "activities": [
-        { "name": "[LAB] Mentoring of Ben Hutchins", "category": "Education", "date": "2025-01-17", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Accessibility in Modern Web Apps\"", "category": "Education", "date": "2025-03-25", "points": 16, "year": 2025, "quarter": "Q1" },
-        { "name": "[TALK] Presentation at JSNation 2025", "category": "Public Speaking", "date": "2025-05-30", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Lakeview State University", "category": "University Partnership", "date": "2025-07-03", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"React Performance Patterns\"", "category": "Education", "date": "2025-09-11", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Chiara Fontana", "category": "Education", "date": "2025-12-04", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Ben Hutchins",
+          "category": "Education",
+          "date": "2025-01-17",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Accessibility in Modern Web Apps\"",
+          "category": "Education",
+          "date": "2025-03-25",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[TALK] Presentation at JSNation 2025",
+          "category": "Public Speaking",
+          "date": "2025-05-30",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Lakeview State University",
+          "category": "University Partnership",
+          "date": "2025-07-03",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"React Performance Patterns\"",
+          "category": "Education",
+          "date": "2025-09-11",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Chiara Fontana",
+          "category": "Education",
+          "date": "2025-12-04",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -179,11 +636,46 @@
       "jobTitle": "Backend Engineer",
       "department": "WA.U1.D2.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"Database Indexing Deep Dive\"", "category": "Education", "date": "2025-02-19", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Grace O'Neill", "category": "Education", "date": "2025-04-30", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students \"Backend Architecture Principles\"", "category": "University Partnership", "date": "2025-06-25", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Event Sourcing and CQRS\"", "category": "Education", "date": "2025-09-17", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Sven Lindqvist", "category": "Education", "date": "2025-11-24", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Database Indexing Deep Dive\"",
+          "category": "Education",
+          "date": "2025-02-19",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Grace O'Neill",
+          "category": "Education",
+          "date": "2025-04-30",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Backend Architecture Principles\"",
+          "category": "University Partnership",
+          "date": "2025-06-25",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Event Sourcing and CQRS\"",
+          "category": "Education",
+          "date": "2025-09-17",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Sven Lindqvist",
+          "category": "Education",
+          "date": "2025-11-24",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -194,10 +686,38 @@
       "jobTitle": "Data Scientist",
       "department": "BY.U1.D1.G2",
       "activities": [
-        { "name": "[TALK] Presentation at Analytics Forward", "category": "Public Speaking", "date": "2025-03-04", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Feature Engineering Techniques\"", "category": "Education", "date": "2025-05-21", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Northern Analytics Institute", "category": "University Partnership", "date": "2025-07-14", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Kwame Asante", "category": "Education", "date": "2025-10-08", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at Analytics Forward",
+          "category": "Public Speaking",
+          "date": "2025-03-04",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Feature Engineering Techniques\"",
+          "category": "Education",
+          "date": "2025-05-21",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Northern Analytics Institute",
+          "category": "University Partnership",
+          "date": "2025-07-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Kwame Asante",
+          "category": "Education",
+          "date": "2025-10-08",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -208,11 +728,46 @@
       "jobTitle": "Software Engineer II",
       "department": "SK.U2.D1.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"GraphQL Schema Design\"", "category": "Education", "date": "2025-02-03", "points": 16, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Mia Sorensen", "category": "Education", "date": "2025-04-16", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at WebDev Warsaw", "category": "Public Speaking", "date": "2025-06-04", "points": 16, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"TypeScript Advanced Types\"", "category": "Education", "date": "2025-09-08", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Ahmad Hussain", "category": "Education", "date": "2025-11-17", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"GraphQL Schema Design\"",
+          "category": "Education",
+          "date": "2025-02-03",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Mia Sorensen",
+          "category": "Education",
+          "date": "2025-04-16",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at WebDev Warsaw",
+          "category": "Public Speaking",
+          "date": "2025-06-04",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"TypeScript Advanced Types\"",
+          "category": "Education",
+          "date": "2025-09-08",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Ahmad Hussain",
+          "category": "Education",
+          "date": "2025-11-17",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -223,10 +778,38 @@
       "jobTitle": "Security Engineer",
       "department": "WA.U2.D3.G3",
       "activities": [
-        { "name": "[TALK] Presentation at AppSec Europe 2025", "category": "Public Speaking", "date": "2025-01-23", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Zero Trust Architecture\"", "category": "Education", "date": "2025-04-01", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students \"Cybersecurity Fundamentals\"", "category": "University Partnership", "date": "2025-07-19", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Leila Ahmadi", "category": "Education", "date": "2025-10-27", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at AppSec Europe 2025",
+          "category": "Public Speaking",
+          "date": "2025-01-23",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Zero Trust Architecture\"",
+          "category": "Education",
+          "date": "2025-04-01",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Cybersecurity Fundamentals\"",
+          "category": "University Partnership",
+          "date": "2025-07-19",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Leila Ahmadi",
+          "category": "Education",
+          "date": "2025-10-27",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -237,10 +820,38 @@
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U1.D3.G2",
       "activities": [
-        { "name": "[LAB] Lecture \"Domain-Driven Design Patterns\"", "category": "Education", "date": "2025-03-13", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Noah Petersen", "category": "Education", "date": "2025-05-09", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at SoftwareDesign Conf", "category": "Public Speaking", "date": "2025-08-26", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Hexagonal Architecture\"", "category": "Education", "date": "2025-11-01", "points": 32, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Domain-Driven Design Patterns\"",
+          "category": "Education",
+          "date": "2025-03-13",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Noah Petersen",
+          "category": "Education",
+          "date": "2025-05-09",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at SoftwareDesign Conf",
+          "category": "Public Speaking",
+          "date": "2025-08-26",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"Hexagonal Architecture\"",
+          "category": "Education",
+          "date": "2025-11-01",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -251,10 +862,38 @@
       "jobTitle": "Platform Engineer",
       "department": "BY.U2.D3.G2",
       "activities": [
-        { "name": "[LAB] Mentoring of Zara Quinn", "category": "Education", "date": "2025-02-28", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[UNI] Lecture for students at TechBridge Academy", "category": "University Partnership", "date": "2025-05-16", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Infrastructure as Code\"", "category": "Education", "date": "2025-08-01", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at PlatformConf 2025", "category": "Public Speaking", "date": "2025-10-10", "points": 32, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Zara Quinn",
+          "category": "Education",
+          "date": "2025-02-28",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[UNI] Lecture for students at TechBridge Academy",
+          "category": "University Partnership",
+          "date": "2025-05-16",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Infrastructure as Code\"",
+          "category": "Education",
+          "date": "2025-08-01",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at PlatformConf 2025",
+          "category": "Public Speaking",
+          "date": "2025-10-10",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -265,10 +904,38 @@
       "jobTitle": "Software Engineer II",
       "department": "SK.U1.D2.G3",
       "activities": [
-        { "name": "[LAB] Lecture \"REST API Design\"", "category": "Education", "date": "2025-03-07", "points": 16, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Patrick Walsh", "category": "Education", "date": "2025-06-20", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students \"Software Engineering Careers\"", "category": "University Partnership", "date": "2025-09-04", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Lecture \"Testing Microservices\"", "category": "Education", "date": "2025-12-15", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"REST API Design\"",
+          "category": "Education",
+          "date": "2025-03-07",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Patrick Walsh",
+          "category": "Education",
+          "date": "2025-06-20",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Software Engineering Careers\"",
+          "category": "University Partnership",
+          "date": "2025-09-04",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Lecture \"Testing Microservices\"",
+          "category": "Education",
+          "date": "2025-12-15",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -279,9 +946,30 @@
       "jobTitle": "UX Engineer",
       "department": "WA.U1.D1.G4",
       "activities": [
-        { "name": "[TALK] Presentation at UXConf Berlin", "category": "Public Speaking", "date": "2025-04-03", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Design Systems at Scale\"", "category": "Education", "date": "2025-06-27", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Miriam Adler", "category": "Education", "date": "2025-10-02", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at UXConf Berlin",
+          "category": "Public Speaking",
+          "date": "2025-04-03",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Design Systems at Scale\"",
+          "category": "Education",
+          "date": "2025-06-27",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Miriam Adler",
+          "category": "Education",
+          "date": "2025-10-02",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -292,9 +980,30 @@
       "jobTitle": "Senior Software Engineer",
       "department": "BY.U1.D1.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"Distributed Systems Fundamentals\"", "category": "Education", "date": "2025-01-08", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[UNI] Lecture for students at Pacific Coast University", "category": "University Partnership", "date": "2025-05-22", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Tomas Navarro", "category": "Education", "date": "2025-11-10", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Distributed Systems Fundamentals\"",
+          "category": "Education",
+          "date": "2025-01-08",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[UNI] Lecture for students at Pacific Coast University",
+          "category": "University Partnership",
+          "date": "2025-05-22",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Tomas Navarro",
+          "category": "Education",
+          "date": "2025-11-10",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -305,9 +1014,30 @@
       "jobTitle": "Engineering Manager",
       "department": "SK.U2.D2.G1",
       "activities": [
-        { "name": "[TALK] Presentation at Women in Tech Summit", "category": "Public Speaking", "date": "2025-03-22", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Building Inclusive Engineering Teams\"", "category": "Education", "date": "2025-07-07", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Max Brandt", "category": "Education", "date": "2025-10-21", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at Women in Tech Summit",
+          "category": "Public Speaking",
+          "date": "2025-03-22",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Building Inclusive Engineering Teams\"",
+          "category": "Education",
+          "date": "2025-07-07",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Max Brandt",
+          "category": "Education",
+          "date": "2025-10-21",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -318,9 +1048,30 @@
       "jobTitle": "Staff Data Engineer",
       "department": "BY.U1.D2.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"Real-time Analytics Architecture\"", "category": "Education", "date": "2025-02-12", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Iris Kowalski", "category": "Education", "date": "2025-06-30", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students \"Big Data in Industry\"", "category": "University Partnership", "date": "2025-09-23", "points": 16, "year": 2025, "quarter": "Q3" }
+        {
+          "name": "[LAB] Lecture \"Real-time Analytics Architecture\"",
+          "category": "Education",
+          "date": "2025-02-12",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Iris Kowalski",
+          "category": "Education",
+          "date": "2025-06-30",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Big Data in Industry\"",
+          "category": "University Partnership",
+          "date": "2025-09-23",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        }
       ]
     },
     {
@@ -331,9 +1082,30 @@
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U2.D2.G4",
       "activities": [
-        { "name": "[LAB] Mentoring of Ibrahim Yilmaz", "category": "Education", "date": "2025-04-26", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Concurrency in Go\"", "category": "Education", "date": "2025-08-18", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at GoConf Warsaw", "category": "Public Speaking", "date": "2025-11-19", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Ibrahim Yilmaz",
+          "category": "Education",
+          "date": "2025-04-26",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Concurrency in Go\"",
+          "category": "Education",
+          "date": "2025-08-18",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at GoConf Warsaw",
+          "category": "Public Speaking",
+          "date": "2025-11-19",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -344,9 +1116,30 @@
       "jobTitle": "Software Engineer II",
       "department": "SK.U1.D3.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"Introduction to Cloud Computing\"", "category": "Education", "date": "2025-03-31", "points": 16, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Mentoring of Petra Novak", "category": "Education", "date": "2025-07-28", "points": 64, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Cloud Community Meetup", "category": "Public Speaking", "date": "2025-12-09", "points": 8, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Introduction to Cloud Computing\"",
+          "category": "Education",
+          "date": "2025-03-31",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Mentoring of Petra Novak",
+          "category": "Education",
+          "date": "2025-07-28",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Cloud Community Meetup",
+          "category": "Public Speaking",
+          "date": "2025-12-09",
+          "points": 8,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -357,9 +1150,30 @@
       "jobTitle": "QA Engineer",
       "department": "WA.U1.D2.G4",
       "activities": [
-        { "name": "[LAB] Lecture \"Exploratory Testing Techniques\"", "category": "Education", "date": "2025-05-05", "points": 16, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students \"Quality Engineering Career Paths\"", "category": "University Partnership", "date": "2025-09-02", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Joel Steiner", "category": "Education", "date": "2025-11-26", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Exploratory Testing Techniques\"",
+          "category": "Education",
+          "date": "2025-05-05",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Quality Engineering Career Paths\"",
+          "category": "University Partnership",
+          "date": "2025-09-02",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Joel Steiner",
+          "category": "Education",
+          "date": "2025-11-26",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -370,9 +1184,30 @@
       "jobTitle": "Senior DevOps Engineer",
       "department": "BY.U2.D1.G2",
       "activities": [
-        { "name": "[TALK] Presentation at SRE Days 2025", "category": "Public Speaking", "date": "2025-02-06", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Observability and Tracing\"", "category": "Education", "date": "2025-08-12", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[LAB] Mentoring of Vivek Sharma", "category": "Education", "date": "2025-12-18", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at SRE Days 2025",
+          "category": "Public Speaking",
+          "date": "2025-02-06",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Observability and Tracing\"",
+          "category": "Education",
+          "date": "2025-08-12",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[LAB] Mentoring of Vivek Sharma",
+          "category": "Education",
+          "date": "2025-12-18",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -383,8 +1218,22 @@
       "jobTitle": "Frontend Engineer",
       "department": "SK.U2.D1.G2",
       "activities": [
-        { "name": "[LAB] Lecture \"CSS Grid Layout Mastery\"", "category": "Education", "date": "2025-04-19", "points": 16, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Mentoring of Luca Conti", "category": "Education", "date": "2025-10-06", "points": 64, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"CSS Grid Layout Mastery\"",
+          "category": "Education",
+          "date": "2025-04-19",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Mentoring of Luca Conti",
+          "category": "Education",
+          "date": "2025-10-06",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -395,9 +1244,30 @@
       "jobTitle": "Software Architect",
       "department": "BY.U1.D3.G3",
       "activities": [
-        { "name": "[LAB] Lecture \"API Gateway Patterns\"", "category": "Education", "date": "2025-06-06", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Baltic State University", "category": "University Partnership", "date": "2025-09-15", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Architecture Summit Krakow", "category": "Public Speaking", "date": "2025-12-03", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"API Gateway Patterns\"",
+          "category": "Education",
+          "date": "2025-06-06",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Baltic State University",
+          "category": "University Partnership",
+          "date": "2025-09-15",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Architecture Summit Krakow",
+          "category": "Public Speaking",
+          "date": "2025-12-03",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -408,8 +1278,22 @@
       "jobTitle": "Software Engineer II",
       "department": "WA.U1.D3.G3",
       "activities": [
-        { "name": "[LAB] Mentoring of Finn O'Brien", "category": "Education", "date": "2025-03-18", "points": 64, "year": 2025, "quarter": "Q1" },
-        { "name": "[LAB] Lecture \"Kotlin Coroutines\"", "category": "Education", "date": "2025-11-04", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Finn O'Brien",
+          "category": "Education",
+          "date": "2025-03-18",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[LAB] Lecture \"Kotlin Coroutines\"",
+          "category": "Education",
+          "date": "2025-11-04",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -420,8 +1304,22 @@
       "jobTitle": "Mobile Engineer",
       "department": "SK.U1.D1.G4",
       "activities": [
-        { "name": "[TALK] Presentation at Mobile Dev Summit", "category": "Public Speaking", "date": "2025-05-14", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[LAB] Lecture \"Flutter State Management\"", "category": "Education", "date": "2025-10-29", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[TALK] Presentation at Mobile Dev Summit",
+          "category": "Public Speaking",
+          "date": "2025-05-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[LAB] Lecture \"Flutter State Management\"",
+          "category": "Education",
+          "date": "2025-10-29",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -432,8 +1330,22 @@
       "jobTitle": "Junior Software Engineer",
       "department": "SK.U2.D3.G1",
       "activities": [
-        { "name": "[LAB] Lecture \"Git Workflows for Teams\"", "category": "Education", "date": "2025-07-16", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[UNI] Lecture for students \"Starting Your Dev Career\"", "category": "University Partnership", "date": "2025-12-22", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Git Workflows for Teams\"",
+          "category": "Education",
+          "date": "2025-07-16",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Starting Your Dev Career\"",
+          "category": "University Partnership",
+          "date": "2025-12-22",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -444,8 +1356,22 @@
       "jobTitle": "Senior Software Engineer",
       "department": "WA.U2.D1.G3",
       "activities": [
-        { "name": "[LAB] Mentoring of Elisa Romano", "category": "Education", "date": "2025-06-11", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at Backend Engineering Days", "category": "Public Speaking", "date": "2025-09-26", "points": 16, "year": 2025, "quarter": "Q3" }
+        {
+          "name": "[LAB] Mentoring of Elisa Romano",
+          "category": "Education",
+          "date": "2025-06-11",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at Backend Engineering Days",
+          "category": "Public Speaking",
+          "date": "2025-09-26",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        }
       ]
     },
     {
@@ -456,8 +1382,22 @@
       "jobTitle": "Software Engineer I",
       "department": "BY.U2.D1.G4",
       "activities": [
-        { "name": "[LAB] Lecture \"Clean Code Principles\"", "category": "Education", "date": "2025-08-20", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[UNI] Lecture for students \"Life as a Junior Developer\"", "category": "University Partnership", "date": "2025-11-13", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Clean Code Principles\"",
+          "category": "Education",
+          "date": "2025-08-20",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Life as a Junior Developer\"",
+          "category": "University Partnership",
+          "date": "2025-11-13",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -468,8 +1408,22 @@
       "jobTitle": "Data Engineer",
       "department": "WA.U1.D2.G2",
       "activities": [
-        { "name": "[LAB] Mentoring of Clara Svensson", "category": "Education", "date": "2025-04-07", "points": 64, "year": 2025, "quarter": "Q2" },
-        { "name": "[TALK] Presentation at Data Engineering Meetup", "category": "Public Speaking", "date": "2025-12-17", "points": 8, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Mentoring of Clara Svensson",
+          "category": "Education",
+          "date": "2025-04-07",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[TALK] Presentation at Data Engineering Meetup",
+          "category": "Public Speaking",
+          "date": "2025-12-17",
+          "points": 8,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -480,8 +1434,22 @@
       "jobTitle": "Machine Learning Engineer",
       "department": "BY.U1.D2.G3",
       "activities": [
-        { "name": "[LAB] Lecture \"MLOps Fundamentals\"", "category": "Education", "date": "2025-03-29", "points": 32, "year": 2025, "quarter": "Q1" },
-        { "name": "[UNI] Lecture for students \"Applied Machine Learning\"", "category": "University Partnership", "date": "2025-10-16", "points": 32, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"MLOps Fundamentals\"",
+          "category": "Education",
+          "date": "2025-03-29",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q1"
+        },
+        {
+          "name": "[UNI] Lecture for students \"Applied Machine Learning\"",
+          "category": "University Partnership",
+          "date": "2025-10-16",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -492,8 +1460,22 @@
       "jobTitle": "Software Engineer II",
       "department": "SK.U1.D1.G2",
       "activities": [
-        { "name": "[LAB] Lecture \"Agile Estimation Techniques\"", "category": "Education", "date": "2025-09-22", "points": 16, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Agile Warsaw 2025", "category": "Public Speaking", "date": "2025-12-11", "points": 8, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Agile Estimation Techniques\"",
+          "category": "Education",
+          "date": "2025-09-22",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Agile Warsaw 2025",
+          "category": "Public Speaking",
+          "date": "2025-12-11",
+          "points": 8,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -504,7 +1486,14 @@
       "jobTitle": "Backend Engineer",
       "department": "BY.U2.D3.G3",
       "activities": [
-        { "name": "[LAB] Mentoring of Anastasia Rybak", "category": "Education", "date": "2025-07-01", "points": 64, "year": 2025, "quarter": "Q3" }
+        {
+          "name": "[LAB] Mentoring of Anastasia Rybak",
+          "category": "Education",
+          "date": "2025-07-01",
+          "points": 64,
+          "year": 2025,
+          "quarter": "Q3"
+        }
       ]
     },
     {
@@ -515,8 +1504,22 @@
       "jobTitle": "Product Designer",
       "department": "WA.U2.D2.G1",
       "activities": [
-        { "name": "[TALK] Presentation at DesignMatters 2025", "category": "Public Speaking", "date": "2025-11-22", "points": 32, "year": 2025, "quarter": "Q4" },
-        { "name": "[LAB] Lecture \"Prototyping with Figma\"", "category": "Education", "date": "2025-05-27", "points": 16, "year": 2025, "quarter": "Q2" }
+        {
+          "name": "[TALK] Presentation at DesignMatters 2025",
+          "category": "Public Speaking",
+          "date": "2025-11-22",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q4"
+        },
+        {
+          "name": "[LAB] Lecture \"Prototyping with Figma\"",
+          "category": "Education",
+          "date": "2025-05-27",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q2"
+        }
       ]
     },
     {
@@ -527,8 +1530,22 @@
       "jobTitle": "Senior Software Engineer",
       "department": "BY.U2.D2.G4",
       "activities": [
-        { "name": "[LAB] Lecture \"Functional Programming in Scala\"", "category": "Education", "date": "2025-06-14", "points": 32, "year": 2025, "quarter": "Q2" },
-        { "name": "[UNI] Lecture for students at Eastern Tech University", "category": "University Partnership", "date": "2025-10-20", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Functional Programming in Scala\"",
+          "category": "Education",
+          "date": "2025-06-14",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q2"
+        },
+        {
+          "name": "[UNI] Lecture for students at Eastern Tech University",
+          "category": "University Partnership",
+          "date": "2025-10-20",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -539,7 +1556,14 @@
       "jobTitle": "Software Engineer I",
       "department": "SK.U2.D2.G2",
       "activities": [
-        { "name": "[LAB] Lecture \"Version Control for Beginners\"", "category": "Education", "date": "2025-10-13", "points": 16, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Version Control for Beginners\"",
+          "category": "Education",
+          "date": "2025-10-13",
+          "points": 16,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     },
     {
@@ -550,8 +1574,22 @@
       "jobTitle": "Cloud Engineer",
       "department": "WA.U1.D1.G3",
       "activities": [
-        { "name": "[LAB] Lecture \"Serverless Patterns\"", "category": "Education", "date": "2025-07-25", "points": 32, "year": 2025, "quarter": "Q3" },
-        { "name": "[TALK] Presentation at Cloud Builders Meetup", "category": "Public Speaking", "date": "2025-11-29", "points": 8, "year": 2025, "quarter": "Q4" }
+        {
+          "name": "[LAB] Lecture \"Serverless Patterns\"",
+          "category": "Education",
+          "date": "2025-07-25",
+          "points": 32,
+          "year": 2025,
+          "quarter": "Q3"
+        },
+        {
+          "name": "[TALK] Presentation at Cloud Builders Meetup",
+          "category": "Public Speaking",
+          "date": "2025-11-29",
+          "points": 8,
+          "year": 2025,
+          "quarter": "Q4"
+        }
       ]
     }
   ]
