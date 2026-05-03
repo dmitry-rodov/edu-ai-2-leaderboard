@@ -718,12 +718,12 @@ button {
 }
 
 .activity-table__heading {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-primary);
-  margin-bottom: 10px;
+  color: rgb(100, 116, 139);
+  margin: 0 0 16px;
 }
 
 .activity-table__header,
@@ -737,10 +737,11 @@ button {
   padding: 12px 8px;
   border-bottom: 1px solid var(--color-border);
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-text-secondary);
+  text-align: left;
+  color: rgb(100, 116, 139);
 }
 
 .activity-table__row {
