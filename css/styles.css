@@ -240,6 +240,11 @@ button {
 .filters__search-input:focus {
   border-width: 2px;
   border-color: #000;
+  padding-left: 12px;
+}
+
+.filters__search--has-value .filters__search-input {
+  padding-left: 12px;
 }
 
 .filters__search-input::placeholder {
