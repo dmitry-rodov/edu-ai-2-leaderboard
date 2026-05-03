@@ -310,9 +310,10 @@ function buildPersonCard(entry) {
   details.appendChild(table);
   card.appendChild(details);
 
-  // ── Toggle expand ──
+  // ── Toggle expand (chevron button only) ──
   let rendered = false;
-  row.addEventListener('click', () => {
+  chevron.addEventListener('click', (e) => {
+    e.stopPropagation();
     const wasExpanded = card.classList.contains('person-card--expanded');
     // Collapse any other open card
     document.querySelectorAll('.person-card--expanded').forEach(c => {
