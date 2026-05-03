@@ -86,7 +86,7 @@ button {
 }
 
 .leaderboard__title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--color-text-primary);
   margin-bottom: 4px;
@@ -352,17 +352,17 @@ button {
 }
 
 .podium__person--first .podium__avatar-wrapper .avatar {
-  width: 104px;
-  height: 104px;
-  font-size: 32px;
+  width: 120px;
+  height: 120px;
+  font-size: 36px;
   border-color: var(--color-gold-podium);
 }
 
 .podium__person--second .podium__avatar-wrapper .avatar,
 .podium__person--third .podium__avatar-wrapper .avatar {
-  width: 72px;
-  height: 72px;
-  font-size: 22px;
+  width: 88px;
+  height: 88px;
+  font-size: 26px;
 }
 
 .podium__person--second .podium__avatar-wrapper .avatar {
@@ -404,11 +404,15 @@ button {
 
 /* Name, title, dept */
 .podium__name {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--color-text-primary);
   text-align: center;
   margin-bottom: 3px;
+}
+
+.podium__person--first .podium__name {
+  font-size: 24px;
 }
 
 .podium__meta {
