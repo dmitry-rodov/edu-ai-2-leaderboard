@@ -188,6 +188,8 @@ button {
   font-size: 14px;
   color: #000;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   transition: background 0.1s;
 }
 
